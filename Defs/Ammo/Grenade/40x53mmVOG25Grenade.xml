@@ -3,7 +3,7 @@
 
 	<ThingCategoryDef>
 		<defName>Ammo40x53mmVOG25Grenades</defName>
-		<label>40x53mm VOG-25 Grenade</label>
+		<label>40mm VOG-25 Grenade</label>
 		<parent>AmmoGrenades</parent>
 		<iconPath>UI/Icons/ThingCategories/CaliberGrenade</iconPath>
 	</ThingCategoryDef>
@@ -12,7 +12,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_40x53mmVOG25Grenade</defName>
-		<label>40x53mm VOG-25 Grenades</label>
+		<label>40mm VOG-25 Grenades</label>
 		<ammoTypes>
 			<Ammo_40x53mmVOG25Grenade_HE>Bullet_40x53mmVOG25Grenade_HE</Ammo_40x53mmVOG25Grenade_HE>
 			<Ammo_40x53mmVOG25Grenade_HE_TFuzed>Bullet_40x53mmVOG25Grenade_HE_TFuzed</Ammo_40x53mmVOG25Grenade_HE_TFuzed>
@@ -43,7 +43,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="40x53mmVOG25GrenadeBase">
 		<defName>Ammo_40x53mmVOG25Grenade_HE</defName>
-		<label>40x53mm VOG-25 grenade (HE)</label>
+		<label>40mm VOG-25 grenade (HE)</label>
 		<graphicData>
 			<texPath>Things/Ammo/GrenadeLauncher/HE</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -54,7 +54,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="40x53mmVOG25GrenadeBase">
 		<defName>Ammo_40x53mmVOG25Grenade_HE_TFuzed</defName>
-		<label>40x53mm VOG-25 grenade (HE Time-Fuzed)</label>
+		<label>40mm VOG-25 grenade (HE Time-Fuzed)</label>
 		<graphicData>
 			<texPath>Things/Ammo/GrenadeLauncher/AIR</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -65,7 +65,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="40x53mmVOG25GrenadeBase">
 		<defName>Ammo_40x53mmVOG25Grenade_EMP</defName>
-		<label>40x53mm VOG-25 grenade (EMP)</label>
+		<label>40mm VOG-25 grenade (EMP)</label>
 		<graphicData>
 			<texPath>Things/Ammo/GrenadeLauncher/EMP</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -77,7 +77,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="40x53mmVOG25GrenadeBase">
 		<defName>Ammo_40x53mmVOG25Grenade_Smoke</defName>
-		<label>40x53mmVOG25 grenade (Smoke)</label>
+		<label>40mm VOG-25 grenade (Smoke)</label>
 		<graphicData>
 			<texPath>Things/Ammo/GrenadeLauncher/SMK</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -121,7 +121,7 @@
 
 	<ThingDef ParentName="Base40x53mmVOG25GrenadeBullet">
 		<defName>Bullet_40x53mmVOG25Grenade_HE_TFuzed</defName>
-		<label>40x53mm VOG-25 grenade (HE Time-Fuzed)</label>
+		<label>40mm VOG-25 grenade (HE Time-Fuzed)</label>
 		<thingClass>CombatExtended.ProjectileCE_Bursting</thingClass>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bomb</damageDef>
@@ -143,7 +143,7 @@
 
 	<ThingDef ParentName="Base40x53mmVOG25GrenadeBullet">
 		<defName>Bullet_40x53mmVOG25Grenade_EMP</defName>
-		<label>40x53mm VOG-25 grenade (EMP)</label>
+		<label>40mm VOG-25 grenade (EMP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>EMP</damageDef>
 			<damageAmountBase>26</damageAmountBase>
@@ -153,7 +153,7 @@
 
 	<ThingDef ParentName="Base40x53mmVOG25GrenadeBullet">
 		<defName>Bullet_40x53mmVOG25Grenade_Smoke</defName>
-		<label>40x53mm VOG-25 grenade (Smoke)</label>
+		<label>40mm VOG-25 grenade (Smoke)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Smoke</damageDef>
 			<explosionRadius>2.5</explosionRadius>
@@ -168,9 +168,9 @@
 
 	<RecipeDef ParentName="LauncherAmmoRecipeBase">
 		<defName>MakeAmmo_40x53mmVOG25Grenade_HE</defName>
-		<label>make 40x53mm VOG-25 HE grenades x100</label>
-		<description>Craft 100 40x53mm VOG-25 HE grenades.</description>
-		<jobString>Making 40x53mm VOG-25 HE grenades.</jobString>
+		<label>make 40mm VOG-25 HE grenades x100</label>
+		<description>Craft 100 40mm VOG-25 HE grenades.</description>
+		<jobString>Making 40mm VOG-25 HE grenades.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -212,9 +212,9 @@
 
 	<RecipeDef ParentName="LauncherAmmoRecipeBase">
 		<defName>MakeAmmo_40x53mmVOG25Grenade_HE_TFuzed</defName>
-		<label>make 40x53mm VOG-25 HE Time-Fuzed grenades x100</label>
-		<description>Craft 100 40x53mm VOG-25 HE Time-Fuzed grenades.</description>
-		<jobString>Making 40x53mm VOG-25 HE Time-Fuzed grenades.</jobString>
+		<label>make 40mm VOG-25 HE Time-Fuzed grenades x100</label>
+		<description>Craft 100 40mm VOG-25 HE Time-Fuzed grenades.</description>
+		<jobString>Making 40mm VOG-25 HE Time-Fuzed grenades.</jobString>
 		<researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
 		<ingredients>
 			<li>
@@ -257,9 +257,9 @@
 
 	<RecipeDef ParentName="LauncherAmmoRecipeBase">
 		<defName>MakeAmmo_40x53mmVOG25Grenade_EMP</defName>
-		<label>make 40x53mm VOG-25 EMP grenades x100</label>
-		<description>Craft 100 40x53mm VOG-25 EMP grenades.</description>
-		<jobString>Making 40x53mm VOG-25 EMP grenades.</jobString>
+		<label>make 40mm VOG-25 EMP grenades x100</label>
+		<description>Craft 100 40mm VOG-25 EMP grenades.</description>
+		<jobString>Making 40mm VOG-25 EMP grenades.</jobString>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
 			<li>CE_Launchers</li>
@@ -296,9 +296,9 @@
 
 	<RecipeDef ParentName="LauncherAmmoRecipeBase">
 		<defName>MakeAmmo_40x53mmVOG25Grenade_Smoke</defName>
-		<label>make 40x53mm VOG25 smoke grenades x100</label>
-		<description>Craft 100 40x53mmVOG25 smoke grenades.</description>
-		<jobString>Making 40x53mmVOG25 smoke grenades.</jobString>
+		<label>make 40mm VOG-25 smoke grenades x100</label>
+		<description>Craft 100 40mm VOG-25 smoke grenades.</description>
+		<jobString>Making 40mm VOG-25 smoke grenades.</jobString>
 		<ingredients>
 			<li>
 				<filter>
